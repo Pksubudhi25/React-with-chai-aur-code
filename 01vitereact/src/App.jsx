@@ -1,13 +1,13 @@
 import { useState } from 'react'
-
+import Chai from './Chai'
 // import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <h1>Chai aur react</h1>
+      <Chai />
     </>
   )
 }
